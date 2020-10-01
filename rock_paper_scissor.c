@@ -1,3 +1,4 @@
+//program to play Rock paper Scissor game
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
