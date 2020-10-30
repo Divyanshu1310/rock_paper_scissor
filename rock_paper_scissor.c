@@ -1,4 +1,4 @@
-//program to play Rock paper Scissor game
+//Program to play Rock paper Scissor game
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -7,7 +7,7 @@ int main()
 {
 
     int i, j, k, user, computer, scoreu, scorec;
-    char c, name[50], play;
+    char c, name[20], play;
 
     printf("Welcome to Rock paper scissor Game: \n \n ");
     printf("Press Y to play the game");
@@ -17,7 +17,7 @@ int main()
     if (c == 'Y' || c == 'y')
     {
 
-      label:  printf("\n\n\n Enter your name here \n\t\n");
+      label:  printf("\n\n\n Enter your nickname for game here:  \n\t\n");
 
         scanf("%s", name);
 
@@ -253,6 +253,6 @@ int main()
     else
     {
 
-        printf("\n\n\nYou have decided not to play this game");
+        printf("\n\n\nYou have decided not to play this game, It was a nice experience to play with you :)");
     }
 }
